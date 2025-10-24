@@ -67,6 +67,8 @@ conda_env/
 !config/*.yaml
 !config/*.yml
 !docs/*.txt
+!legacy/README.md
+!research/README.md
 *.pkl
 *.pickle
 *.h5
