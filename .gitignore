@@ -1,0 +1,158 @@
+# Twitter Sentiment Analysis - Enhanced .gitignore
+# Author: Lakshya Khetan (lakshyaketan00@gmail.com)
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+tests/reports/
+
+# Environments
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda_env/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (sensitive/large)
+*.csv
+*.json
+*.jsonl
+*.tsv
+*.txt
+!requirements.txt
+!config/*.yaml
+!config/*.yml
+!docs/*.txt
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.feather
+
+# Model files and weights
+*.model
+*.bin
+*.pt
+*.pth
+*.ckpt
+SavedModels/
+models/saved/
+models/checkpoints/
+*.weights
+*.pb
+
+# Large data archives
+Data.7z
+SavedModels.7z
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# External data and embeddings
+glove/
+embeddings/
+data/raw/
+data/external/
+data/interim/
+data/processed/*.csv
+
+# Logs and monitoring
+logs/
+*.log
+wandb/
+mlruns/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Configuration files with secrets
+config/local_config.yaml
+config/production_config.yaml
+.secrets/
+credentials.py
+config.py
+
+# Results and outputs
+results/figures/
+results/reports/
+results/predictions/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# API keys and credentials (extra safety)
+*key*
+*secret*
+*token*
+*password*
+*credential*
+!*key*.example
+!*key*.template
